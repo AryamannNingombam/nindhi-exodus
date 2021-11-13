@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+
+#main-background-container{
+    min-height:100vh;
+    width:10000000vw;
+    background:url(../images/BG.png)repeat  top left;
+    animation:background-animation ease-in-out 10s forwards;
+}
+
+@keyframes background-animation {
+    from{
+        transform:translateX(0%);
+    }to{
+        transform:translateX(-2880px);
+    }
+}
